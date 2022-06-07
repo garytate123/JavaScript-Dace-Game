@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee Game</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="dicee-styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>The highest score wins</h3>
+        <h1>Ready to play?</h1>
+        <button
+          class="btn btn-large btn-outline-light name-btn"
+          onclick="player1()"
+        >
+          Enter player 1's name
+        </button>
+        <button
+          class="btn btn-large btn-outline-light name-btn"
+          onclick="player2()"
+        >
+          Enter player 2's name
+        </button>
+      </div>
+      <div class="dice">
+        <p class="playerOne">Player 1</p>
+        <img class="img1" src="images/dice6.png" />
+      </div>
+      <div class="dice">
+        <p class="playerTwo">Player 2</p>
+        <img class="img2" src="images/dice6.png" />
+      </div>
+      <div>
+        <button
+          class="btn btn-large btn-outline-warning btn-block play-btn"
+          onclick="playGame()"
+        >
+          Lets play!
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+
+  <footer>
+    <p>Created by Gary Tate</p>
+  </footer>
+</html>

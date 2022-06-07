@@ -1,0 +1,15 @@
+{
+  "name": "javascript-dicee-game",
+  "version": "1.0.0",
+  "description": "JavaScript Dice Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "Game"
+  ],
+  "author": "Gary Tate",
+  "license": "ISC"
+}
